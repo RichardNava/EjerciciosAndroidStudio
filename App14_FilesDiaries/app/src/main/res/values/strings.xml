@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App14_FilesDiaries</string>
+    <string name="txt_multi">Escriba aqui...</string>
+    <string name="btn_save">GUARDAR</string>
+</resources>
