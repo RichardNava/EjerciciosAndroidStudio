@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txt_fisica"
+        android:layout_width="255dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/txt_fisica"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mates" />
+
+    <EditText
+        android:id="@+id/txt_lenguaje"
+        android:layout_width="255dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/txt_lenguaje"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_fisica" />
+
+    <EditText
+        android:id="@+id/txt_mates"
+        android:layout_width="255dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/txt_mate"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_asignaturas" />
+
+    <Button
+        android:id="@+id/btn_calcularMedia"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="CalcularMedia"
+        android:text="@string/btn_calcularMedia"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_lenguaje" />
+
+    <TextView
+        android:id="@+id/tv_asignaturas"
+        android:layout_width="256dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tv_asignaturas"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

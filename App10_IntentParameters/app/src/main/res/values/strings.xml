@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App10_IntentParameters</string>
+    <string name="txt_name">Introduzca el nombre</string>
+    <string name="tv_welcome">Hola</string>
+    <string name="btn_send">ENVIAR</string>
+    <string name="btn_prev">VOLVER</string>
+</resources>

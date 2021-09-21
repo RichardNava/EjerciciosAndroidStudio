@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App4_CheckBoxCalc</string>
+    <string name="txt_num1">Introduzca el primer valor</string>
+    <string name="txt_num2">Introduzca el segundo valor</string>
+    <string name="cb_sum">Sumar</string>
+    <string name="cb_subtract">Restar</string>
+    <string name="button">Calcular</string>
+    <string name="tv_result">RESULTADO</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App2_Calculadora</string>
+    <string name="tv_instructions">INTRODUZCA LOS VALORES</string>
+    <string name="txt_num1">Introduzca valor 1</string>
+    <string name="txt_num2">Introduzca valor 2</string>
+    <string name="btn_sumar">Sumar</string>
+    <string name="btn_resta">Restar</string>
+    <string name="tv_result">RESULTADO</string>
+    <string name="btn_multiply">Multiplicar</string>
+    <string name="btn_divide">Dividir</string>
+</resources>

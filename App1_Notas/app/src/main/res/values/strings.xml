@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App1_Notas</string>
+    <string name="tv_asignaturas">ASIGNATURAS</string>
+    <string name="txt_mate">Matemáticas</string>
+    <string name="txt_fisica">Física</string>
+    <string name="txt_lenguaje">Lenguaje</string>
+    <string name="btn_calcularMedia">Calcular Media</string>
+</resources>

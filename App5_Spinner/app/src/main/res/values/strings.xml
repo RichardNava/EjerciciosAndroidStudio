@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App5_Spinner</string>
+
+    <string name="et_num1">Introduzca un numero</string>
+    <string name="et_num2">Introduzca otro</string>
+    <string name="button">Exe</string>
+    <string name="tv_result">Resultado</string>
+</resources>

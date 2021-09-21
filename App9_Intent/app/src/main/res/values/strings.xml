@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App9_Intent</string>
+    <string name="tv_title">Activity 1 - Hola</string>
+    <string name="tv_title2">Activity 2 - Adios</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="btn_prev">Anterior</string>
+</resources>

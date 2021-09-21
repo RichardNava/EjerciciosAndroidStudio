@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App6_ImageButton</string>
+
+    <string name="i_bt_tea">Toamar te</string>
+    <string name="i_bt_coffe">Tomar cafe</string>
+
+</resources>
