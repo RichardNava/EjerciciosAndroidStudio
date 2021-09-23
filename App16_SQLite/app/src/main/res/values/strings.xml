@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App16_SQLite</string>
+    <string name="txt_id">ID Producto</string>
+    <string name="txt_description">Descripción</string>
+    <string name="txt_price">Precio</string>
+    <string name="btn_create">CREAR</string>
+    <string name="btn_read">BUSCAR</string>
+    <string name="btn_update">MODIFICAR</string>
+    <string name="btn_delete">ELIMINAR</string>
+</resources>

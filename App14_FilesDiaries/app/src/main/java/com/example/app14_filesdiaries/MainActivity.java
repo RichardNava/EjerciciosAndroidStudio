@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Creamos un bucle de tipo While (desconocemos el número de iteraciones) para ir completando el texto
                 while (line != null){
-                    textComplete += line; // textComplete = textComplete + line;
+                    textComplete += line +"\n"; // textComplete = textComplete + line;
                     line = br.readLine();
                 }
 

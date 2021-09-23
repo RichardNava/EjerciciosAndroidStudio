@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App15_PersistenciaSim</string>
+    <string name="txt_multi">Escriba aqui...</string>
+    <string name="txt_name">Introduzca el nombre</string>
+    <string name="btn_save">GUARDAR</string>
+    <string name="btn_consultar">BUSCAR</string>
+</resources>

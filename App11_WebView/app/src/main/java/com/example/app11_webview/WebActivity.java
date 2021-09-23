@@ -19,7 +19,7 @@ public class WebActivity extends AppCompatActivity {
         wv1 = (WebView) findViewById(R.id.wv1);
         String URL = getIntent().getStringExtra("URL");
         wv1.setWebViewClient(new WebViewClient()); // Método para asignar un cliente (Vista web) dentro de la aplicación
-        wv1.loadUrl("http://"+URL); //Método para asignar la URL a la que queremos acceder en nuestro WebView
+        wv1.loadUrl(URL); //Método para asignar la URL a la que queremos acceder en nuestro WebView
 
     }
 
