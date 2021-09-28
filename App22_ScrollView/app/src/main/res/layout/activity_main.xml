@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ib_banana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:contentDescription="@string/ib_banana"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/bananas" />
+
+            <ImageButton
+                android:id="@+id/ib_cereza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_500"
+                android:contentDescription="@string/ib_cereza"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/cerezas" />
+
+            <ImageButton
+                android:id="@+id/ib_frambuesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:contentDescription="@string/ib_frambuesa"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/frambuesas" />
+
+            <ImageButton
+                android:id="@+id/ib_fresas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_500"
+                android:contentDescription="@string/ib_fresas"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/fresas" />
+
+            <ImageButton
+                android:id="@+id/ib_kiwi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:contentDescription="@string/ib_kiwi"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/kiwis" />
+
+            <ImageButton
+                android:id="@+id/ib_mango"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_500"
+                android:contentDescription="@string/ib_mango"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/mangos" />
+
+            <ImageButton
+                android:id="@+id/ib_manzana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:contentDescription="@string/ib_manzana"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/manzanas" />
+
+            <ImageButton
+                android:id="@+id/ib_melon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_500"
+                android:contentDescription="@string/ib_melon"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/melon" />
+
+            <ImageButton
+                android:id="@+id/ib_naranja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:contentDescription="@string/ib_naranja"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/naranjas" />
+
+            <ImageButton
+                android:id="@+id/ib_pera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_500"
+                android:contentDescription="@string/ib_pera"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/pera" />
+
+            <ImageButton
+                android:id="@+id/ib_pina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:contentDescription="@string/ib_pina"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/pina" />
+
+            <ImageButton
+                android:id="@+id/ib_sandia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_500"
+                android:contentDescription="@string/ib_sandia"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/sandia" />
+
+            <ImageButton
+                android:id="@+id/ib_uva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:contentDescription="@string/ib_uva"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/uvas" />
+
+            <ImageButton
+                android:id="@+id/ib_mora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_500"
+                android:contentDescription="@string/ib_mora"
+                android:onClick="SelectItem"
+                app:srcCompat="@drawable/zarzamora" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Continuar"
+                android:text="Button" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App20_Audio</string>
+    <string name="btn_sound">SoundPool</string>
+    <string name="btn_music">MediaPLayer</string>
+</resources>

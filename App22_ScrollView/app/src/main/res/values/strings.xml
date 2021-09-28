@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">App22_ScrollView</string>
+    <string name="ib_banana">Banana</string>
+    <string name="ib_cereza">Cereza</string>
+    <string name="ib_frambuesa">Frambuesas</string>
+    <string name="ib_fresas">Fresas</string>
+    <string name="ib_kiwi">Kiwi</string>
+    <string name="ib_mango">Mango</string>
+    <string name="ib_manzana">Manzana</string>
+    <string name="ib_melon">Melón</string>
+    <string name="ib_naranja">Naranja</string>
+    <string name="ib_pera">Pera</string>
+    <string name="ib_pina">Piña</string>
+    <string name="ib_sandia">Sandia</string>
+    <string name="ib_uva">Uva</string>
+    <string name="ib_mora">Mora</string>
+</resources>

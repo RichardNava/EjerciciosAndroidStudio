@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App17_FrameLayout</string>
+    <string name="btn_photo">Ver foto</string>
+    <string name="iv_avatar">Avatar</string>
+</resources>

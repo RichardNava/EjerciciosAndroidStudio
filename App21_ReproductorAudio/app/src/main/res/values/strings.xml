@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App21_ReproductorAudio</string>
+    <string name="iv_port">Portada</string>
+    <string name="btn_play">Reproducir</string>
+    <string name="btn_stop">Detener</string>
+    <string name="btn_repeat">Bucle</string>
+    <string name="btn_prev">Anterior</string>
+    <string name="btn_next">Siguiente</string>
+</resources>
